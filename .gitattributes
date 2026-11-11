@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Scripts shell usados em containers Linux devem manter LF
+docker/entrypoint.sh text eol=lf
